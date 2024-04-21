@@ -1,10 +1,10 @@
 import Header from "@/components/header";
 
-export default function About() {
+export default function Skills() {
   return (
     <div>
       <Header />
-      <p className="text-3xl">about</p>
+      <p className="text-3xl">skills</p>
     </div>
   );
 }

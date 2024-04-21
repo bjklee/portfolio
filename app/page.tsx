@@ -1,34 +1,20 @@
-import { ModeToggle } from "@/components/mode-toggle";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuTrigger,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-} from "@/components/ui/dropdown-menu";
-import { Menu } from "lucide-react";
+import Header from "@/components/header";
+
 export default function Home() {
   return (
-    <div>
-      <div className="absolute left-0 top-0">
-        <p className="text-2xl m-5">Brendan Lee</p>
-      </div>
-
-      <div className="absolute top-0 right-0 m-5 space-x-3">
-        <ModeToggle />
-
-        <DropdownMenu>
-          <DropdownMenuTrigger>
-            <Menu className="absolute h-[1.2rem] w-[1.2rem]" />
-          </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuLabel>About Me</DropdownMenuLabel>
-            <DropdownMenuItem>Experience</DropdownMenuItem>
-            <DropdownMenuItem>Skills</DropdownMenuItem>
-            <DropdownMenuItem>Projects</DropdownMenuItem>
-            <DropdownMenuItem>Contact Me</DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
+    <div className="h-full w-full">
+      <Header />
+      <div id="fade_in" className="h-full w-full content-center justify-center">
+        <div className="flex flex-row justify-center space-x-3 mt-7">
+          <p className="text-3xl">Welcome!</p>
+          <p id="hand" className="text-3xl">
+            👋
+          </p>
+        </div>
+        <p className="text-center px-10 mt-5">
+          Thanks for coming to my website! If you have any questions or would
+          like to connect with me, contact me through the drop down menu!
+        </p>
       </div>
     </div>
   );

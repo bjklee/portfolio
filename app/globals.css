@@ -71,6 +71,7 @@ body,
   }
 }
 
+
 @layer base {
   * {
     @apply border-border;
@@ -78,7 +79,36 @@ body,
   body {
     @apply bg-background text-foreground;
   }
-  p {
-    font-weight: bold;
+  @keyframes fade_in {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes wave {
+    11% {
+      transform: scaleX(-1) rotate(15deg);
+    }
+    33% {
+      transform: scaleX(-1) rotate(-12deg);
+    }
+    55% {
+      transform: scaleX(-1) rotate(15deg);
+    }
+    77% {
+      transform: scaleX(-1) rotate(-12deg);
+    }
+  }
+  #fade_in{
+    animation-name: fade_in;
+    animation-duration: 1.5s;
+  }
+  #hand {
+    transform: scaleX(-1);
+    animation-name: wave;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
   }
 }
