@@ -5,7 +5,14 @@ import {
   DropdownMenuTrigger,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
-import { Menu } from "lucide-react";
+import {
+  Menu,
+  User,
+  Keyboard,
+  BookCheck,
+  SquareGanttChart,
+  Send,
+} from "lucide-react";
 
 export default function Header() {
   return (
@@ -19,25 +26,40 @@ export default function Header() {
         <ModeToggle />
 
         <DropdownMenu>
-          <DropdownMenuTrigger>
+          <DropdownMenuTrigger value="Day">
             <Menu />
           </DropdownMenuTrigger>
           <DropdownMenuContent className="mt-5 mr-2">
-            <DropdownMenuItem>
-              <a href="/about">About Me</a>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <a href="/skills">Skills</a>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <a href="/experience">Experience</a>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <a href="/projects">Projects</a>
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              <a href="/contact">Contact Me</a>
-            </DropdownMenuItem>
+            <a href="/about" className="hover:underline">
+              <DropdownMenuItem>
+                About Me
+                <User className="absolute right-0 mr-1.5 w-5" />
+              </DropdownMenuItem>
+            </a>
+            <a href="/skills" className="hover:underline">
+              <DropdownMenuItem>
+                Skills
+                <Keyboard className="absolute right-0 mr-1.5 w-5" />
+              </DropdownMenuItem>
+            </a>
+            <a href="/experience" className="hover:underline">
+              <DropdownMenuItem>
+                Experience
+                <BookCheck className="absolute right-0 mr-1.5 w-5" />
+              </DropdownMenuItem>
+            </a>
+            <a href="/projects" className="hover:underline">
+              <DropdownMenuItem>
+                Projects
+                <SquareGanttChart className="absolute right-0 mr-1.5 w-5" />
+              </DropdownMenuItem>
+            </a>
+            <a href="/contact" className="hover:underline">
+              <DropdownMenuItem>
+                Contact Me
+                <Send className="absolute right-0 mr-1.5 w-5" />
+              </DropdownMenuItem>
+            </a>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
