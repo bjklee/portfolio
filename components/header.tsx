@@ -4,12 +4,13 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
   DropdownMenuItem,
+  DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { Menu, User, Keyboard, Send, ScrollText } from "lucide-react";
 
 export default function Header() {
   return (
-    <div className="flex gap-4 flex-1 justify-end items-center">
+    <div className="flex">
       <a href="/" className="absolute left-0 top-0">
         <p className="text-2xl mx-5 mt-5">Brendan Lee</p>
         <p className="text-sm ml-5">Software Engineer / UI Designer</p>
@@ -29,12 +30,14 @@ export default function Header() {
                 <User className="absolute right-0 mr-1.5 w-5" />
               </DropdownMenuItem>
             </a>
+            <DropdownMenuSeparator />
             <a href="/work" className="hover:underline">
               <DropdownMenuItem>
                 Work
                 <Keyboard className="absolute right-0 mr-1.5 w-5" />
               </DropdownMenuItem>
             </a>
+            <DropdownMenuSeparator />
             <a
               href="/Brendan Lee Resume.pdf"
               download="Brendan Lee Resume.pdf"
@@ -45,6 +48,7 @@ export default function Header() {
                 <ScrollText className="absolute right-0 mr-1.5 w-5" />
               </DropdownMenuItem>
             </a>
+            <DropdownMenuSeparator />
             <a href="/contact" className="hover:underline">
               <DropdownMenuItem>
                 Contact
