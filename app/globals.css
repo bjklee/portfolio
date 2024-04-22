@@ -111,4 +111,10 @@ body,
     animation-duration: 1.5s;
     animation-delay: 1.5s;
   }
+  @media only screen and (max-width: 768px) {
+    #relative {
+      position: relative;
+    }
+  }
+
 }
