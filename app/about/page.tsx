@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div>
       <Header />
-      <div className="overscroll-contain m-3 pb-20" id="fade_in">
+      <div className="pt-5 pb-20" id="fade_in">
         <div className="flex flex-row justify-center space-x-3.5">
           <Image
             alt="A picture of me!"
