@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div>
       <Header />
-      <div className="overscroll-contain" id="fade_in">
+      <div className="overscroll-contain m-3 pb-20" id="fade_in">
         <div className="flex flex-row justify-center space-x-3.5">
           <Image
             alt="A picture of me!"
@@ -28,21 +28,21 @@ export default function About() {
         <p className="text-center text-sm px-6 mt-5">
           Thanks for visiting my website!
         </p>
-        <p className="text-center text-sm px-6 mt-5">
+        <p className="text-center text-sm px-6 mt-4">
           I am an incoming SWE intern at Yazaki and a senior at the University
           of Michigan with a major in Computer Science and a minor in User
           Experience Design.
         </p>
-        <p className="text-center text-sm px-6 mt-5">
+        <p className="text-center text-sm px-6 mt-4">
           I currently have over 5+ years of coding experience and have worked on
           projects anywhere from full stack web/mobile apps to multithreaded
           programs.
         </p>
-        <p className="text-center text-sm px-6 mt-5">
+        <p className="text-center text-sm px-6 mt-4">
           I love both the practical and conceptual layers of programming and am
           looking to use my skills to assist people in need.
         </p>
-        <p className="text-center text-sm px-6 mt-5 pb-10">
+        <p className="text-center text-sm px-6 mt-5">
           If you are interested in me or my skillset or simply would like to
           connect, please feel free to reach out to me in the dropdown!
         </p>
