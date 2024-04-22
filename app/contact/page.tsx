@@ -4,7 +4,7 @@ import Header from "@/components/header";
 
 export default function Contact() {
   return (
-    <div className="h-full w-full">
+    <div className="w-full">
       <Header />
       <div id="fade_in" className="h-full w-full">
         <ContactForm />
