@@ -35,12 +35,16 @@ export default function Header() {
                 <Keyboard className="absolute right-0 mr-1.5 w-5" />
               </DropdownMenuItem>
             </a>
-            {/* <a href="" className="hover:underline">
+            <a
+              href="/Brendan Lee Resume.pdf"
+              download="Brendan Lee Resume.pdf"
+              className="hover:underline"
+            >
               <DropdownMenuItem>
                 Resume
                 <ScrollText className="absolute right-0 mr-1.5 w-5" />
               </DropdownMenuItem>
-            </a> */}
+            </a>
             <a href="/contact" className="hover:underline">
               <DropdownMenuItem>
                 Contact
