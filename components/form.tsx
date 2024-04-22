@@ -17,7 +17,7 @@ export default function ContactForm() {
 
   return (
     <div>
-      <p className="text-center text-sm px-6 mt-40">
+      <p className="text-center text-sm absolute w-5/6 left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/4">
         Use the form or my email below to reach out to me! I will use the email
         provided to get back to you.
       </p>
