@@ -1,5 +1,5 @@
 import Header from "@/components/header";
-import RelativeFooter from "@/components/relative_footer";
+import Footer from "@/components/footer";
 import Image from "next/image";
 
 export default function About() {
@@ -48,7 +48,7 @@ export default function About() {
           connect, please feel free to reach out to me in the dropdown!
         </p>
       </div>
-      <RelativeFooter />
+      <Footer />
     </div>
   );
 }
