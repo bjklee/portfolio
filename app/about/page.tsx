@@ -9,8 +9,7 @@ export default function About() {
   return (
     <div>
       <Header />
-      <div className="overscrll-contain" id="fade_in">
-        <div className="w-full"></div>
+      <div className="overscroll-contain" id="fade_in">
         <div className="flex flex-row justify-center space-x-3.5 mt-8">
           <Image
             alt="A picture of me!"
