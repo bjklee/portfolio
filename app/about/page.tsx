@@ -35,17 +35,17 @@ export default function About() {
           Experience Design.
         </p>
         <p className="text-center text-sm px-6 mt-5">
-          I current have over 5+ years of coding experience and have worked on
+          I currently have over 5+ years of coding experience and have worked on
           projects anywhere from full stack web/mobile apps to multithreaded
-          projects.
+          programs.
         </p>
         <p className="text-center text-sm px-6 mt-5">
           I love both the practical and conceptual layers of programming and am
-          looking to use my skills to help people in need.
+          looking to use my skills to assist people in need.
         </p>
         <p className="text-center text-sm px-6 mt-5 pb-10">
-          If you are interested in my or my skillset or simply would like to
-          connect, please feel free to reach out to me below!
+          If you are interested in me or my skillset or simply would like to
+          connect, please feel free to reach out to me in the dropdown!
         </p>
       </div>
       <RelativeFooter />

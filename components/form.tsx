@@ -17,9 +17,9 @@ export default function ContactForm() {
 
   return (
     <div>
-      <p className="text-center text-sm px-6 mt-44">
-        Use the form to below to reach out to me! I will use the email provided
-        to get back to you.
+      <p className="text-center text-sm px-6 mt-40">
+        Use the form or my email below to reach out to me! I will use the email
+        provided to get back to you.
       </p>
       <form
         onSubmit={handleSubmit}
