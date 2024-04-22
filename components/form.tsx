@@ -25,7 +25,7 @@ export default function ContactForm() {
         onSubmit={handleSubmit}
         className="absolute w-5/6 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
       >
-        <Input placeholder="Email" id="email" name="email"></Input>
+        <Input placeholder="Email" id="email" name="email" />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <Textarea
           className="mt-3"

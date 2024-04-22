@@ -16,14 +16,14 @@ export default function Header() {
         <p className="text-sm ml-5">Software Engineer / UI Designer</p>
       </a>
 
-      <div className="absolute top-0 right-0 m-5 space-x-3">
+      <div className="absolute top-3 right-5 space-x-3">
         <ModeToggle />
 
         <DropdownMenu>
-          <DropdownMenuTrigger value="Day">
+          <DropdownMenuTrigger className="m-5" value="Day">
             <Menu />
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="mt-5 mr-2">
+          <DropdownMenuContent className="absolute top-5 right-1/2">
             <a href="/about" className="hover:underline">
               <DropdownMenuItem>
                 About
