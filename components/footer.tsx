@@ -2,7 +2,7 @@ import { Github, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <div className="fixed inset-x-0 bottom-0 p-3 border-t-2 z-50 bg-white dark:bg-[rgb(29,33,42)]">
+    <div className="fixed inset-x-0 bottom-0 p-3 border-2 z-50 bg-white dark:bg-[rgb(29,33,42)]">
       <div className="flex flex-row justify-between">
         <p className="text-sm">© Brendan Lee 2024 </p>
         <div className="flex flex-row">
