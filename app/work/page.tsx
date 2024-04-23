@@ -35,8 +35,7 @@ export default function Work() {
           />
         </div>
         <p className="text-center text-sm px-6 mt-5 lg:text-base">
-          Developed UI designs in Figma and Adobe XD for mobile fitness app
-          'K•GO'
+          Developed UI designs in Figma and Adobe XD for mobile fitness app K•GO
         </p>
         <p className="text-center text-lg px-6 mt-20 font-bold lg:text-2xl">
           Personal Projects
