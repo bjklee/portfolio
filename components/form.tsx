@@ -17,18 +17,18 @@ export default function ContactForm() {
 
   return (
     <div>
-      <p className="text-center text-sm absolute w-5/6 left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/4">
+      <p className="text-center text-sm absolute w-5/6 left-1/2 top-1/4 transform -translate-x-1/2 -translate-y-1/4 lg:text-lg">
         Use the form or my email below to reach out to me! I will use the email
         provided to get back to you.
       </p>
       <form
         onSubmit={handleSubmit}
-        className="absolute w-5/6 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        className="absolute w-5/6 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:w-2/3"
       >
         <Input placeholder="Email" id="email" name="email" />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <Textarea
-          className="mt-3"
+          className="mt-3 lg:h-48"
           id="message"
           name="message"
           placeholder="Message"

@@ -19,30 +19,30 @@ export default function About() {
             className="flex-row justify-center mt-20 border-2 border-white rounded-full"
           />
           <div className="flex flex-col ">
-            <p className="text-3xl mt-36">Hello!</p>
-            <p id="hand" className="text-3xl text-center mt-2">
+            <p className="text-3xl mt-36 lg:text-4xl">Hello!</p>
+            <p id="hand" className="text-3xl lg:text-4xl text-center mt-2">
               👋
             </p>
           </div>
         </div>
-        <p className="text-center text-sm px-6 mt-5">
+        <p className="text-center text-sm px-6 mt-5 lg:text-lg lg:mt-7">
           Thanks for visiting my website!
         </p>
-        <p className="text-center text-sm px-6 mt-4">
+        <p className="text-center text-sm px-6 mt-4 lg:text-lg lg:mt-7">
           I am an incoming SWE intern at Yazaki and a senior at the University
           of Michigan with a major in Computer Science and a minor in User
           Experience Design.
         </p>
-        <p className="text-center text-sm px-6 mt-4">
+        <p className="text-center text-sm px-6 mt-4 lg:text-lg lg:mt-7">
           I currently have over 5+ years of coding experience and have worked on
           projects anywhere from full stack web/mobile apps to multithreaded
           programs.
         </p>
-        <p className="text-center text-sm px-6 mt-4">
+        <p className="text-center text-sm px-6 mt-4 lg:text-lg lg:mt-7">
           I love both the practical and conceptual layers of programming and am
           looking to use my skills to assist people in need.
         </p>
-        <p className="text-center text-sm px-6 mt-5">
+        <p className="text-center text-sm px-6 mt-4 lg:text-lg lg:mt-7">
           If you are interested in me or my skillset or simply would like to
           connect, please feel free to reach out to me in the dropdown!
         </p>

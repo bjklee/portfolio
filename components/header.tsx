@@ -12,18 +12,20 @@ export default function Header() {
   return (
     <div className="flex">
       <a href="/" className="absolute left-0 top-0">
-        <p className="text-2xl mx-5 mt-5">Brendan Lee</p>
-        <p className="text-sm ml-5">Software Engineer / UI Designer</p>
+        <p className="text-2xl mx-5 mt-5 lg:text-3xl">Brendan Lee</p>
+        <p className="text-sm ml-5 lg:text-base">
+          Software Engineer / UI Designer
+        </p>
       </a>
 
       <div className="absolute top-3 right-5 space-x-3">
         <ModeToggle />
 
         <DropdownMenu>
-          <DropdownMenuTrigger className="m-5" value="Day">
-            <Menu />
+          <DropdownMenuTrigger className="lg:w-12 lg:h-12 m-5" value="Day">
+            <Menu className="r" />
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="absolute top-5 right-1/2">
+          <DropdownMenuContent className="absolute top-5 right-1/2 lg:w-24">
             <a href="/about" className="hover:underline">
               <DropdownMenuItem>
                 About
